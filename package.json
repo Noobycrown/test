@@ -1,16 +1,13 @@
 {
-  "dependencies": {
-    "express": "^4.21.0",
-    "web3": "^4.13.0"
-  },
-  "name": "voting-system",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
-}
+    "name": "solidity-dapp",
+    "version": "1.0.0",
+    "description": "Frontend for Solidity Dapp",
+    "main": "app.js",
+    "dependencies": {
+      "web3": "^1.5.0"
+    },
+    "scripts": {
+      "start": "node app.js"
+    }
+  }
+  
